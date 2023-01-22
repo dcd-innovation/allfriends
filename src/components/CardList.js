@@ -3,10 +3,7 @@ import React from 'react';
 import Card from './Card';
 
 const CardList = ({ friends }) => {
-	if (true) {
-		throw new Error('Nooo');
-}
-	return (
+		return (
 		<div>
 				{
 					friends.map((user, i) => {
